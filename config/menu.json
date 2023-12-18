@@ -1,0 +1,134 @@
+{
+  "main": [
+    {
+      "name": " Themes",
+      "url": "/"
+    },
+    {
+      "name": "Themes By Us",
+      "url": "/authors/statichunt"
+    },
+    {
+      "name": "Resources",
+      "url": "/tools"
+    },
+    {
+      "name": "Examples",
+      "url": "/examples"
+    },
+    {
+      "name": "Bundles",
+      "url": "/bundles",
+      "badge": "New"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Statichunt",
+      "pages": [
+        {
+          "page": "about",
+          "url": "/about"
+        },
+        {
+          "page": "blog",
+          "url": "/blog"
+        },
+        {
+          "page": "write for us",
+          "url": "/write-for-us"
+        },
+        {
+          "page": "contact",
+          "url": "/contact"
+        },
+        {
+          "page": "disclaimer",
+          "url": "/disclaimer"
+        },
+        {
+          "page": "Sponsors",
+          "url": "/sponsors"
+        }
+      ]
+    },
+    {
+      "name": "Themes",
+      "pages": [
+        {
+          "page": "astro themes",
+          "url": "/astro-themes"
+        },
+        {
+          "page": "hugo themes",
+          "url": "/hugo-themes"
+        },
+        {
+          "page": "nextjs templates",
+          "url": "/nextjs-templates"
+        },
+        {
+          "page": "gatsby themes",
+          "url": "/gatsby-themes"
+        },
+        {
+          "page": "jekyll themes",
+          "url": "/jekyll-themes"
+        },
+        {
+          "page": "hexo themes",
+          "url": "/hexo-themes"
+        },
+        {
+          "page": "nuxtjs themes",
+          "url": "/nuxtjs-themes"
+        },
+        {
+          "page": "eleventy themes",
+          "url": "/eleventy-themes"
+        }
+      ]
+    },
+    {
+      "name": "Tools",
+      "pages": [
+        {
+          "page": "chat",
+          "url": "/jamstack-chat"
+        },
+        {
+          "page": "ecommerce",
+          "url": "/jamstack-ecommerce"
+        },
+        {
+          "page": "cms",
+          "url": "/jamstack-cms"
+        },
+        {
+          "page": "feedback",
+          "url": "/jamstack-feedback"
+        },
+        {
+          "page": "form",
+          "url": "/jamstack-forms"
+        },
+        {
+          "page": "helper",
+          "url": "/jamstack-helper"
+        },
+        {
+          "page": "hosting",
+          "url": "/jamstack-hosting"
+        },
+        {
+          "page": "search",
+          "url": "/jamstack-search"
+        }
+      ]
+    }
+  ]
+}

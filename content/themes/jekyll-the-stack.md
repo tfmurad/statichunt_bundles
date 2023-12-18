@@ -1,0 +1,22 @@
+---
+title: The Stack
+github: https://github.com/dailybruin/the-stack
+demo: https://stack.dailybruin.com/
+author: dailybruin
+author_link: https://github.com/dailybruin
+date: 2023-11-27T04:41:52.606Z
+description: >-
+  Website and datasets for The Stack, Daily Bruin's data journalism and newsroom
+  tech blog.
+ssg:
+  - Jekyll
+css: []
+cms: []
+category:
+  - Blog
+draft: false
+publish_date: '2015-08-20T04:23:40Z'
+update_date: '2023-12-06T20:53:13Z'
+github_star: 27
+github_fork: 21
+---
