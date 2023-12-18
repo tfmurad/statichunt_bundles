@@ -13,9 +13,9 @@ bundles:
     - "Upcoming Themes"
    button_label: Grab The Deal
    
- - bundle: Bootstrap Bundle
+ - bundle: Astro Bundle
    author: Themefisher
-   image: "/images/Bootstrap_Bundle.png"
+   image: "/images/Astro_Bundle.png"
    price: $59
    regular_price: $199
    features:
@@ -25,9 +25,9 @@ bundles:
     - "Upcoming Themes"
    button_label: Grab The Deal
 
- - bundle: Bootstrap Bundle
+ - bundle: NextJs Bundle
    author: Themefisher
-   image: "/images/Bootstrap_Bundle.png"
+   image: "/images/NextJs_Bundle.png"
    price: $59
    regular_price: $199
    features:
@@ -37,9 +37,9 @@ bundles:
     - "Upcoming Themes"
    button_label: Grab The Deal
 
- - bundle: Bootstrap Bundle
-   author: Themefisher
-   image: "/images/Bootstrap_Bundle.png"
+ - bundle: Hugo Bundle
+   author: Gethugothemes
+   image: "/images/Hugo_Bundle.png"
    price: $59
    regular_price: $199
    features:

@@ -11,8 +11,9 @@ const Footer = () => {
   const { site, params } = config;
 
   return (
-    <footer className="section bg-theme-dark px-4 sm:px-10 xl:px-16">
-      <div className="mb-12 border-b border-[#ffffff0f] pb-10">
+    <footer className="section bg-theme-dark px-4">
+      <div className="mb-6 border-b border-[rgba(255,255,255,0.06)] pb-[86px] relative">
+        <p className="absolute -bottom-2 left-32 text-sm text-white">{site.other_text}</p>
         <div className="row lg:justify-center">
           {footer.map((item, i) => (
             <div
@@ -23,9 +24,12 @@ const Footer = () => {
                   : "col-12 sm:col-9 md:col-8 lg:col-4"
               } mb-5 pb-4 lg:mb-0 lg:pb-0`}
             >
-              <h3 className="h5 mb-4 font-medium capitalize text-white">
+              <h3 className="h5 mb-3 font-medium capitalize text-white">
                 {item.name}
               </h3>
+
+              <hr className="mb-8 w-[30px]"/>
+              
               <ul className={i != 0 ? "mr-4 columns-2" : undefined}>
                 {item.pages.map((page, i) => (
                   <li key={`page-${i}`} className="mb-2">
