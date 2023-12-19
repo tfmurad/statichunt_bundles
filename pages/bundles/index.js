@@ -14,7 +14,9 @@ const bundles = ({ data }) => {
         <div className="container">
           <div className="row text-center">
             <h1>{title}</h1>
-            <p className="mx-auto col-12 md:col-8 pt-6">{markdownify(content)}</p>
+            <p className="mx-auto col-12 md:col-8 pt-6">
+              {markdownify(content)}
+            </p>
           </div>
 
           <div className="row pt-14 xl:px-24 gap-y-14">
@@ -31,7 +33,7 @@ const bundles = ({ data }) => {
                     />
                   </div>
 
-                  <div className="p-4 md:p-8 shadow-md rounded-b-md">
+                  <div className="p-8 shadow-md rounded-b-md">
                     <div className="flex justify-between">
                       <h3>
                         {bundle.bundle}{" "}
@@ -48,25 +50,31 @@ const bundles = ({ data }) => {
                       </p>
                     </div>
 
-                    <div className="flex justify-between pt-6">
+                    <div className="lg:flex justify-between pt-6">
                       <div className="row gap-y-4">
                         {bundle.features.map((feature, i) => (
-                          <p className="col-12 sm:col-6 text-sm flex items-center gap-x-2" key={i}>
+                          <p
+                            className="col-6 text-sm flex items-center gap-x-2"
+                            key={i}
+                          >
                             <FaRegCircleCheck
                               size={16}
-                              className="text-primary"
+                              className="text-primary opacity-60"
                             />{" "}
                             {feature}
                           </p>
                         ))}
                       </div>
-                      <a
-                        className="btn btn-outline-primary border-2 font-bold text-primary whitespace-nowrap mt-auto origin-right scale-90 md:scale-100 lg:ml-0"
-                        href="https://zeon.studio/?ref=statichunt.com"
-                        target="_blank"
-                      >
-                        {bundle.button_label}
-                      </a>
+
+                      <div className="mt-6 flex justify-end">
+                        <a
+                          className="btn btn-outline-primary border-2 font-bold text-primary whitespace-nowrap mt-auto origin-right scale-90 md:scale-100"
+                          href="https://zeon.studio/?ref=statichunt.com"
+                          target="_blank"
+                        >
+                          {bundle.button_label}
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
