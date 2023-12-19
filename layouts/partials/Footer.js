@@ -12,8 +12,7 @@ const Footer = () => {
 
   return (
     <footer className="section bg-theme-dark px-4">
-      <div className="mb-6 border-b border-[rgba(255,255,255,0.06)] pb-[86px] relative">
-        <p className="absolute -bottom-2 left-32 text-sm text-white">{site.other_text}</p>
+      <div className="mb-6 border-b border-[rgba(255,255,255,0.06)] pb-[86px]">
         <div className="row lg:justify-center">
           {footer.map((item, i) => (
             <div
@@ -52,7 +51,8 @@ const Footer = () => {
 
       {/* footer bottom */}
       <div className="row items-center lg:justify-center">
-        <div className="hidden lg:col-3 lg:block">
+        <div className="hidden lg:col-3 lg:block relative">
+        <p className="absolute -top-9 left-2 text-sm text-white">{site.other_text}</p>
           <Link href="/" className="inline-block">
             <Image src={site.footer_logo} width={180} height={35} alt="logo" />
           </Link>

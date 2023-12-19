@@ -35,14 +35,14 @@ const bundles = ({ data }) => {
                     <div className="flex justify-between">
                       <h3>
                         {bundle.bundle}{" "}
-                        <span className="text-sm text-dark dark:text-darkmode-dark font-normal">
+                        <span className="text-sm text-text dark:text-darkmode-text font-normal">
                           By {bundle.author}
                         </span>
                       </h3>
 
                       <p className="text-dark dark:text-darkmode-dark font-bold text-2xl">
                         {bundle.price}{" "}
-                        <s className="text-sm text-dark dark:text-darkmode-dark font-normal">
+                        <s className="text-sm text-text dark:text-darkmode-text font-normal">
                           {bundle.regular_price}
                         </s>
                       </p>
